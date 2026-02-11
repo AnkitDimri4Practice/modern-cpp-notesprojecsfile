@@ -3,11 +3,36 @@
 
 # Mordern C++ Practice & Data Structures Repository
 
-This repository contains a comprehensive collection of **C++ practice programs, assignments, and Data Structures & Algorithms implementations** created during learning and practice sessions (Dec 2021 – Jan 2022 and beyond).
-
-It covers fundamental programming concepts, Object-Oriented Programming (OOP), Standard Template Library (STL), File Handling, Exception Handling, and core DSA topics.
+A structured collection of Modern C++ notes, hands-on practice programs, mini-projects, and Data Structures & Algorithms implementations.
+This repository reflects my learning journey and practical understanding of core C++ and system-level programming concepts.
 
 ---
+
+##  Featured Mini Projects
+
+###  Students Record Application
+Console-based application to manage student data using file handling and OOP concepts.
+
+###  Stack Data Structure
+Custom implementation of stack using arrays demonstrating LIFO behavior.
+
+###  Credit Card Mini Project
+Basic simulation project demonstrating structured program design.
+
+### DoonEngine
+Experimental C++ engine practice file for understanding modular design.
+
+
+---
+
+## Tech Stack
+
+- C++
+- GCC Compiler
+- STL
+- Object-Oriented Programming
+- File Handling
+- Data Structures & Algorithms
 
 ---
 
@@ -50,23 +75,15 @@ It covers fundamental programming concepts, Object-Oriented Programming (OOP), S
 
 Make sure you have a C++ compiler installed (e.g., g++).
 
-### Compile
 
-```bash
-g++ filename.cpp -o output
-```
+## Build & Run
+
+### Compile
+g++ filename.cpp -std=c++17 -Wall -o output
 
 ### Run
-
-```bash
-./output
-```
-
-On Windows:
-
-```bash
-output.exe
-```
+./output        # Linux / Mac
+output.exe      # Windows
 
 ---
 
@@ -90,7 +107,7 @@ This repository was created for:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ankit Dimri**
 C++ Learner | Exploring Data Structures & Algorithms
