@@ -119,4 +119,17 @@ C++ Learner | Exploring Data Structures & Algorithms
 <img width="55" height="55" alt="image" src="https://github.com/user-attachments/assets/0519c35c-0e2e-4bba-be91-cceb69e077b8" />[LeetCode](https://leetcode.com/u/user4612MW/)
 
 
+![Language](https://img.shields.io/badge/Language-C++-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 ---
+
+
+<div align="center">
+    Created by <b>Ankit Dimri</b>  
+    © 2021
+</div> 
+
+---
+
