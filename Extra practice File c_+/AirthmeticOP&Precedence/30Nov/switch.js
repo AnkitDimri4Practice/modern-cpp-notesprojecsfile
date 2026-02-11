@@ -1,0 +1,10 @@
+function change() {
+    var x = document.getElementsByID('light-text');
+    if (x.innerHTML == "OFF") {
+        x.innerHTML = "ON";
+    } else {
+        x.innerHTML = "OFF";
+    }
+    var element = document.body;
+    element.classList.toggle("lights-on");
+}
