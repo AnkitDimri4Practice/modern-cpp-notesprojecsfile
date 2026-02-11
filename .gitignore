@@ -39,3 +39,16 @@
 
 # debug information files
 *.dwo
+
+# IDE folders
+.vscode/
+.idea/
+*.suo
+*.user
+*.vcxproj*
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
