@@ -1,0 +1,51 @@
+
+------------- 
+ Name = Ankit Dimri
+ Class = 11th
+ Age = 15
+
+------------- 
+ Name = Jhon
+ Class = 12th
+ Age = 16
+
+
+#include<iostream>
+#include<fstream>
+using namespace std;
+class Student{
+    private:
+    string name,Class;
+    int age;
+    static int total;
+    public:
+    Student(){
+        name = "Ankit Dimri";
+        Class = "11th";
+        age = 15;
+        total++;
+    }Student(string n, string C, int a){
+        name = n; Class = C; age = a;
+    }void printdata(){
+        cout << "------Student Information----------\n";
+        cout << "  Name = " << name;
+        cout << "\n Class = " << Class;
+        cout << "\n Age = " << age;
+    } friend ofstream & operator << (ofstream&, Student);
+};
+int Student::total=0;
+int main(){
+    Student a;
+    Student d("Jhon", "12th", 16);
+    ofstream my_file;
+    my_file.open("studentinfo.txt", ios::app);
+    my_file << a << d;
+    my_file.close();
+    return 0;
+}ofstream & operator << (ofstream& out, Student obj){
+    out << "\n------------- \n";
+    out << " Name = " << obj.name;
+    out << "\n Class = " << obj.Class;
+    out << "\n Age = " << obj.age << "\n";
+    return out;
+}
